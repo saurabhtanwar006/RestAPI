@@ -1,0 +1,24 @@
+Add data-
+on localhost
+http://127.0.0.1/api/trucks/create.php?number=11111&lon=-9.3&lat=-2.5
+on server
+http://139.59.47.128/api/trucks/create.php?number=4444444&lon=-7.3&lat=-2.5
+
+Show all data-
+on localhost
+http://127.0.0.1/api/trucks/read.php
+on server
+http://139.59.47.128/api/trucks/read.php
+
+
+Read one entry
+on localhost
+http://127.0.0.1/api/trucks/read_one.php?number=19976
+on server
+http://139.59.47.128/api/trucks/read_one.php?number=19976
+
+Show in pages 
+on localhost
+http://localhost/api/trucks/read_paging.php?page=6
+on server
+http://139.59.47.128/api/trucks/read_paging.php?page=6
